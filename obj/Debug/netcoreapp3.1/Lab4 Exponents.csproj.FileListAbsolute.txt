@@ -1,0 +1,14 @@
+A:\Microsoft Visual Studio\SOURCE\repository\Lab4 Exponents\bin\Debug\netcoreapp3.1\Lab4 Exponents.exe
+A:\Microsoft Visual Studio\SOURCE\repository\Lab4 Exponents\bin\Debug\netcoreapp3.1\Lab4 Exponents.deps.json
+A:\Microsoft Visual Studio\SOURCE\repository\Lab4 Exponents\bin\Debug\netcoreapp3.1\Lab4 Exponents.runtimeconfig.json
+A:\Microsoft Visual Studio\SOURCE\repository\Lab4 Exponents\bin\Debug\netcoreapp3.1\Lab4 Exponents.runtimeconfig.dev.json
+A:\Microsoft Visual Studio\SOURCE\repository\Lab4 Exponents\bin\Debug\netcoreapp3.1\Lab4 Exponents.dll
+A:\Microsoft Visual Studio\SOURCE\repository\Lab4 Exponents\bin\Debug\netcoreapp3.1\Lab4 Exponents.pdb
+A:\Microsoft Visual Studio\SOURCE\repository\Lab4 Exponents\obj\Debug\netcoreapp3.1\Lab4 Exponents.csproj.AssemblyReference.cache
+A:\Microsoft Visual Studio\SOURCE\repository\Lab4 Exponents\obj\Debug\netcoreapp3.1\Lab4 Exponents.GeneratedMSBuildEditorConfig.editorconfig
+A:\Microsoft Visual Studio\SOURCE\repository\Lab4 Exponents\obj\Debug\netcoreapp3.1\Lab4 Exponents.AssemblyInfoInputs.cache
+A:\Microsoft Visual Studio\SOURCE\repository\Lab4 Exponents\obj\Debug\netcoreapp3.1\Lab4 Exponents.AssemblyInfo.cs
+A:\Microsoft Visual Studio\SOURCE\repository\Lab4 Exponents\obj\Debug\netcoreapp3.1\Lab4 Exponents.csproj.CoreCompileInputs.cache
+A:\Microsoft Visual Studio\SOURCE\repository\Lab4 Exponents\obj\Debug\netcoreapp3.1\Lab4 Exponents.dll
+A:\Microsoft Visual Studio\SOURCE\repository\Lab4 Exponents\obj\Debug\netcoreapp3.1\Lab4 Exponents.pdb
+A:\Microsoft Visual Studio\SOURCE\repository\Lab4 Exponents\obj\Debug\netcoreapp3.1\Lab4 Exponents.genruntimeconfig.cache

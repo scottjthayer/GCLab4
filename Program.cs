@@ -5,35 +5,9 @@ namespace Lab4_Exponents
     class Program
     {
         static void Main(string[] args)
-        { 
-            bool runAgain = true;
-            while (runAgain)
-            {
-                Console.WriteLine("Please enter an integer.");
-                int input = int.Parse(Console.ReadLine());
-                if (input < 1 || input > 1290)
-                {
-                    //EXTRAS
-                    Console.WriteLine("Sorry that input is invalid, please enter a number between 1 and 1290");
-                    continue;
-                }
-
-                PrintTable(input);
-
-                Console.WriteLine("Would you like to run again with a different positive integer? y/n");
-                string yesOrNo = Console.ReadLine().ToLower();
-                if (yesOrNo == "n")
-                {
-                    runAgain = false;
-                    Console.WriteLine("Bye, person.");
-                    break;
-                }
-                else if (yesOrNo != "y")
-                {
-                    runAgain = true;
-                    Console.WriteLine("That isn't a y or an n, you silly bean. But I guess I will allow it.");
-                }
-            }
+        {
+            Console.WriteLine("Welcome to the exponent table generator!");
+            Run();           
         }
 
         public static int PrintTable(int number)
@@ -48,6 +22,46 @@ namespace Lab4_Exponents
                 Console.WriteLine($"{i,5}\t{squared,5}\t{cubed,5}");
             }
             return number;
+        }
+
+        public static void Run()
+        {
+            bool runAgain = true;
+            while (runAgain)
+            {
+                Console.WriteLine("Please enter an integer.");
+                int input = int.Parse(Console.ReadLine());
+                if (input < 1 || input > 1290)
+                {
+                    //EXTRAS
+                    Console.WriteLine("Sorry that input is invalid, please enter a number between 1 and 1290");
+                    continue;
+                }
+
+                PrintTable(input);
+
+                //ask for continue. make sure user enters a 'y' or 'n'
+                while (true)
+                {
+                    Console.WriteLine("Would you like to run again with a different positive integer? y/n");
+                    string yesOrNo = Console.ReadLine().ToLower();
+                    if (yesOrNo == "n")
+                    {
+                        runAgain = false;
+                        Console.WriteLine("Bye, person.");
+                        break;
+                    }
+                    else if (yesOrNo =="y")
+                    {
+                        runAgain = true;
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("That isn't an answer to my question.");
+                    }
+                }
+            }
         }
     }
 }
